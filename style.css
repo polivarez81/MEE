@@ -1,0 +1,276 @@
+                            * {
+                                margin: 0px;
+                                padding: 0px;
+                                box-sizing: border-box;
+                                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+                            }
+                            
+                            .hero {
+                                background-image: url(worldmap.jpg);
+                                background-repeat: no-repeat;
+                                background: full;
+                                -webkit-background-size: cover;
+                                -moz-background-size: cover;
+                                -o-background-size: cover;
+                                background-size: cover;
+                            }
+                            
+                            .background {
+                                height: 100vh;
+                                width: 100vh;
+                                background-image: pix 1.jpg;
+                                background-repeat: no-repeat;
+                                position: relative;
+                                padding: 0 5%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            }
+                            
+                            body {
+                                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                font-size: 14px;
+                                line-height: 3em;
+                                margin-bottom: auto;
+                                margin-top: auto;
+                                padding-top: 1.5em;
+                                margin-left: 1.5em;
+                                height: webkit-fill-available;
+                            }
+                            
+                            header {
+                                display: flex;
+                                width: 100%;
+                                height: 20vh;
+                                margin: auto;
+                                align-items: center;
+                                background-color: silver;
+                            }
+                            
+                            .logo-container,
+                            .nav-links {
+                                display: flex;
+                            }
+                            
+                            .logo-container {
+                                flex: 1;
+                            }
+                            
+                            nav {
+                                flex: 1;
+                            }
+                            
+                            .nav-links {
+                                justify-content: space-around;
+                                list-style: none;
+                            }
+                            
+                            .nav-links {
+                                color: #fff;
+                                font-size: 12px;
+                                text-decoration: none;
+                                margin: 0px;
+                                padding: 0x;
+                                box-sizing: border-box;
+                                justify-content: space-around;
+                            }
+                            
+                            .presentation {
+                                display: flex;
+                                width: auto;
+                                min-height: 70vh;
+                                align-items: center;
+                            }
+                            
+                            .introduction {
+                                flex: 1;
+                            }
+                            
+                            .intro-text h1 {
+                                font-size: 55px;
+                                font-weight: 300;
+                                background: linear-gradient(to right, #494964, #6f6f89);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: bold;
+                                ;
+                            }
+                            
+                            .intro-text {
+                                margin: 10px;
+                                font-size: 22px;
+                                color: black;
+                            }
+                            
+                            .cover {
+                                flex: 1;
+                            }
+                            
+                            .cover img {
+                                height: 80vh;
+                                width: 5vh;
+                                margin-left: 15vh;
+                            }
+                            
+                            .container1 {
+                                max-width: 1224px;
+                                width: 90%;
+                                margin: auto;
+                                padding: 40px 0;
+                            }
+                            
+                            .title {
+                                margin-bottom: 2rem;
+                            }
+                            
+                            .photo-gallery {
+                                display: flex;
+                                gap: 20px;
+                            }
+                            
+                            .column {
+                                display: flex;
+                                flex-direction: column;
+                                gap: 20px;
+                            }
+                            
+                            .photo img {
+                                width: 100%;
+                                height: 100%;
+                                border-radius: 5px;
+                                object-fit: cover;
+                            }
+                            
+                            .title {
+                                margin-bottom: 2rem;
+                            }
+                            
+                            .photo-gallery {
+                                display: flex;
+                                gap: 20px;
+                            }
+                            
+                            .photo img {
+                                width: 30%;
+                                height: 30%;
+                                border-radius: 5px;
+                                object-fit: cover;
+                                -webkit-border-radius: 5px;
+                                -moz-border-radius: 5px;
+                                -ms-border-radius: 5px;
+                                -o-border-radius: 5px;
+                            }
+                            
+                            .container1 {
+                                position: relative;
+                                min-height: 100vh;
+                                background: #dddd;
+                            }
+                            
+                            .container1 h1 {
+                                font-size: 40px;
+                                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                font-weight: normal;
+                                padding: 15px;
+                                color: #333;
+                                text-align: center;
+                            }
+                            
+                            .container1 .photo-gallery {
+                                display: flex;
+                                flex-wrap: wrap;
+                                gap: 15px;
+                                justify-content: center;
+                                padding: 10px;
+                            }
+                            
+                            .container .image-container image {
+                                height: 250px;
+                                width: 350px;
+                                border: 10px solid #fff;
+                                box-shadow: 0 5px 5px rgba(0, 0, 0.1);
+                                overflow: hidden;
+                                cursor: pointer;
+                            }
+                            
+                            .container .image-container image {
+                                height: 100%;
+                                width: 100%;
+                                object-fit: cover;
+                                transition: .2s linear;
+                            }
+                            
+                            .container .image-container .image:hover img {
+                                transform: scale(1.2);
+                            }
+                            
+                            @media only screen and (min-width: 400px) {
+                                .nav-links {
+                                    color: #fff;
+                                    font-size: 12px;
+                                    text-decoration: none;
+                                    margin: 0px;
+                                    padding: 0x;
+                                    box-sizing: border-box;
+                                    justify-content: space-around;
+                                }
+                                @media only screen and (min-width: 400px) {
+                                    .presentation {
+                                        display: flex;
+                                        width: 40%;
+                                        margin: auto;
+                                        min-height: 55vh;
+                                        align-items: center;
+                                    }
+                                }
+                                @media only screen and (min-width: 400px) {
+                                    .body {
+                                        font-size: 14px;
+                                        line-height: 3em;
+                                        margin-bottom: auto;
+                                        margin-top: auto;
+                                        padding-top: 1.5em;
+                                        margin-left: 1.5em;
+                                        height: webkit-fill-available;
+                                    }
+                                }
+                                @media only screen and (min-width: 400px) {
+                                    .contact {
+                                        font-size: 14px;
+                                        line-height: 3em;
+                                        margin-bottom: auto;
+                                        margin-top: auto;
+                                        padding-top: 1.5em;
+                                        margin-left: 1.5em;
+                                    }
+                                }
+                                @media only screen and (min-width: 400px) {
+                                    #container1 {
+                                        display: flex;
+                                        align-items: center;
+                                        margin-right: 10px;
+                                    }
+                                }
+                                @media only screen and (min-width: 780px) {
+                                    .photo-gallery {
+                                        flex-direction: column;
+                                    }
+                                }
+                                button {
+                                    height: 20px;
+                                    width: 50px;
+                                    border: none;
+                                    outline: none;
+                                    font-size: 16px;
+                                    font-weight: 450;
+                                }
+                                button,
+                                .fa {
+                                    color: black;
+                                    box-shadow: 3px 3px;
+                                }
+                            }
+                            
+                            .fa {
+                                font-size: 20px;
+                                padding: 10px 18px;
+                            }
